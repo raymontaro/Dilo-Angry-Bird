@@ -27,7 +27,7 @@ public class Bird : MonoBehaviour
     }
 
     void FixedUpdate()
-    {
+    {        
         if (_state == BirdState.Idle &&
             RigidBody.velocity.sqrMagnitude >= _minVelocity)
         {
